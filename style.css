@@ -96,28 +96,24 @@ nav ul {
 
 .cont-adicional{
    background-image: url(imagens/bg_detalhe.png);
-   background-size: cover;
-   height: 500px;
-   padding: 60px 0px 0px 60px;
-   position: relative;
+   background-position: right bottom;
+   padding: 100px;
 }
 
-.photo-blue{
-    max-width: 700px;
-    position: absolute;
-}
 
-.photo-blue h1{
+
+.cont-adicional h1{
     color: white;
     font-size: 3em;
     margin-bottom: 20px;
 }
 
-.photo-blue p{
+.cont-adicional p{
     color: white;
-    line-height: 30px;
-    
+   line-height: 30px;
 }
+
+
 
 #cont{
    text-align: center;

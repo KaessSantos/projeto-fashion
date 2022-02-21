@@ -45,6 +45,15 @@ nav ul li {
     margin-right: 10px;
     font-size: 12px;
     text-transform: uppercase;
+    opacity: 0.1;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+nav ul li:hover{
+    transition-duration: 1s;
+    color: white;
+    opacity: 0.8;
 }
 
 nav ul {
@@ -87,10 +96,21 @@ nav ul {
 
 .mod{
     margin: 10px;
+    text-align: center;
+    line-height: 20px;
 }
 
 .mod img{
     width: 100%;
+}
+
+#mod1, #mod2, #mod3{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#modp1, #modp2, #modp3{
+    color: rgba(128, 128, 128, 0.76);
 }
 
 
